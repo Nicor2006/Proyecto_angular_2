@@ -1,0 +1,10 @@
+<h1>Ejemplo 2 actualizando un nombre usando un input</h1>
+
+<div>
+    <input #myName (input)="updateName(myName.value)">
+
+    <p>
+        el nombre es {{nombre()}}
+    </p>
+
+</div>
